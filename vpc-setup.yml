@@ -5,7 +5,6 @@
     - name: Import vpc variables
       include_vars: 
         files: vars/vpc_setup
-      remote_src: yes
     - name: create vprofile vpc
       ec2_vpc_net:
         name: "{{vpc_name}}"
