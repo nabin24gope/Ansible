@@ -90,6 +90,6 @@
         state: "{{state}}"
         resource_tags:
           name: VPROFILE_IGW
-        register: igw_out 
+      register: igw_out 
 
 
